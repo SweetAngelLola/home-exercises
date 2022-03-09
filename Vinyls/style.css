@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#vinyl {
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  background-image: url("Records.jpg");
+}
+#select {
+  background-color: #ef8354;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 16px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#selling {
+  background-color: #0e7c7b;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#music {
+  background-color: #9c538b;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#facebook:hover {
+  color: #9c528b;
+}
+
+#facebook:link,
+#facebook:active,
+#facebook:visited {
+  color: #ef8354;
+}
+footer {
+  text-align: center;
+}

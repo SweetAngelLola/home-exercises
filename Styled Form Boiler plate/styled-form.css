@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 5px;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #274471;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 400px;
+  box-align: center;
+  background-color: rgb(243, 243, 243);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contactForm {
+  padding: 25px;
+}
+
+#firstName,
+#surname,
+#email,
+textarea {
+  width: 90%;
+  padding: 10px 16px 10px 16px;
+  margin: 8px 0 8px 0;
+  border-radius: 10px;
+  border: 0;
+}
+
+#firstName:hover,
+#surname:hover,
+#email:hover,
+textarea:hover {
+  background-color: grey;
+  font-size: 22px;
+}
+#submitButton {
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  background-color: #1ac0f3;
+  padding: 14px 20px 14px 20px;
+  text-align: center;
+  cursor: pointer;
+  color:white;
+  font-size: 20px;
+}
