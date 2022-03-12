@@ -19,6 +19,11 @@ body {
   margin-top: 20px;
 }
 
+.hero {
+display: flex;
+flex-direction: column-reverse;
+}
+
 #feature{
   width: 100%;
 }
